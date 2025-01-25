@@ -15,44 +15,6 @@ This project uses the Indiana University Chest X-ray Dataset, which contains pai
 🔗 Download Dataset:
 Kaggle - Chest X-rays Indiana University
 
-To use this dataset, follow these steps:
-
-bash
-Copy
-Edit
-!kaggle datasets download -d raddar/chest-xrays-indiana-university
-!unzip chest-xrays-indiana-university.zip -d chest_xray_data
-🛠 Installation
-Clone the repository and install the dependencies:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/AI-Xray-Diagnosis.git
-cd AI-Xray-Diagnosis
-pip install -r requirements.txt
-📜 Usage
-Run the Project
-bash
-Copy
-Edit
-python app.py
-OR, if using Google Colab:
-
-python
-Copy
-Edit
-!pip install gradio
-Then execute the notebook.
-
-Run the Gradio Interface
-After running the script, Gradio will generate a public link:
-
-csharp
-Copy
-Edit
-Running on public URL: https://xyz.gradio.live
-Click the link to interact with the model.
 
 🔍 Model Architecture
 The system consists of:
@@ -75,12 +37,11 @@ Grad-CAM Heatmap (Model’s Focus)
 Superimposed X-ray (Highlighting Disease)
 Prediction Status (e.g., Pneumonia Detected ⚠️)
 Generated Medical Report
-🤝 Contributors
-Your Name - AI & ML Developer
-Want to contribute? Feel free to fork and submit a PR!
 
-📜 License
-This project is open-source under the MIT License.
+🤝 Contributors
+Angelin Celena - AI & ML Enthusiast
+Mughilan KP - AI & ML Enthusiast
+Want to contribute? Feel free to fork and submit a PR!
 
 🛠 Future Enhancements
 🔹 Improve accuracy with pre-trained transformers
