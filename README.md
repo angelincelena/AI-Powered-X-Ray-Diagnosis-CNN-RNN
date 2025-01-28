@@ -1,12 +1,19 @@
 🩻 AI-Powered X-Ray Diagnosis Using CNN + RNN
+
 This project combines Convolutional Neural Networks (CNNs) for feature extraction and Recurrent Neural Networks (RNNs) for text generation, enabling automated X-ray disease diagnosis. It employs Grad-CAM for visual interpretability and Gradio for an interactive web-based interface.
 
 🚀 Features
+
 ✅ Upload X-ray images for disease detection
+
 ✅ Uses EfficientNetB0 (CNN) for feature extraction
+
 ✅ Uses LSTM (RNN) to generate medical impressions
+
 ✅ Implements Grad-CAM to visualize model attention
+
 ✅ Provides disease prediction with bounding boxes
+
 ✅ Interactive Gradio UI for easy testing
 
 📂 Dataset
