@@ -1,8 +1,9 @@
-🩻 AI-Powered X-Ray Diagnosis Using CNN + RNN
+# 🩻 AI-Powered X-Ray Diagnosis Using CNN + RNN
 
 This project combines Convolutional Neural Networks (CNNs) for feature extraction and Recurrent Neural Networks (RNNs) for text generation, enabling automated X-ray disease diagnosis. It employs Grad-CAM for visual interpretability and Gradio for an interactive web-based interface.
 
-🚀 Features
+
+## 🚀 Features
 
 ✅ Upload X-ray images for disease detection
 
@@ -16,18 +17,20 @@ This project combines Convolutional Neural Networks (CNNs) for feature extractio
 
 ✅ Interactive Gradio UI for easy testing
 
-📂 Dataset
+
+## 📂 Dataset
 
 This project uses the Indiana University Chest X-ray Dataset, which contains paired X-ray images and radiology reports.
 
-🔗 Download Dataset:
+
+## 🔗 Download Dataset:
 
 Kaggle - Chest X-rays Indiana University
 
 
-🔍 Model Architecture
+## 🔍 Model Architecture
 
-The system consists of:
+### The system consists of:
 
 Feature Extraction (CNN) - Extracts deep X-ray features
 
@@ -41,9 +44,10 @@ Superimposed Output - Displays Grad-CAM heatmap
 
 Results Display - Shows predicted disease + caption
 
-🎯 Results & Evaluation
 
-📊 Evaluation Metrics:
+## 🎯 Results & Evaluation
+
+### 📊 Evaluation Metrics:
 
 ✅ Accuracy (CNN Disease Classification)
 
@@ -51,7 +55,8 @@ Results Display - Shows predicted disease + caption
 
 ✅ Grad-CAM Visual Explainability
 
-🖼 Example Output
+
+## 🖼 Example Output
 
 Original X-ray
 
@@ -63,14 +68,15 @@ Prediction Status (e.g., Pneumonia Detected ⚠️)
 
 Generated Medical Report
 
-🤝 Contributors
+
+## 🤝 Contributors
 
 Angelin Celena - AI & ML Enthusiast
 
 Mughilan KP - AI & ML Enthusiast
 
 
-🛠 Future Enhancements
+## 🛠 Future Enhancements
 
 🔹 Improve accuracy with pre-trained transformers
 
